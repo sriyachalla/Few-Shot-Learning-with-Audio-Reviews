@@ -3,6 +3,9 @@
 ### Abstract :
 In this project we perform Few Shot Learning with audio reviews that are obtained from our app - Hot Takes. The goal is to be able to understand our customer base better and make informed data driven decisions that will align with the needs and wants of our customers. In particular, we will be marking the content of the reviews as offensive or not, rate the positiveness of a review and provide a short 3 to 5 word summary of the audio take. To that end, we leverage OpenAI’s Whisper API to transcribe the audio reviews to text, then their ChatGPT API to categorize them, all in an automated manner.
 
+<img width="1452" alt="Screenshot 2024-08-06 at 3 43 35 PM" src="https://github.com/user-attachments/assets/0c9496e3-3e94-4605-8d46-cecce615243a">
+
+
 ### Background:
 Our objective is to better understand our customers and their sentiments by transcribing and analyzing audio reviews for our startup - Hot Takes. Analyzing the audio reviews will help us make informed data-driven decisions that align with our customers needs and wants, including recommendations of places through fun reviews that are positive and persuasive.
 Our project builds off of related work on Few-shot Learning in the Natural Language Processing space. In the context of audio reviews, transcribing involves using speech recognition technology and we will later use NLP and Few Shot Learning to conduct sentiment analysis on textualized review data to recommend places that are fun through positive and persuasive reviews.
